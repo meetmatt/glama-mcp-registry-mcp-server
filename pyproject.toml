@@ -1,0 +1,27 @@
+[project]
+name = "mcp-glama-registry"
+version = "0.1.0"
+description = "MCP Registry Server for Glama MCP. Exposes a tool to search the Glama MCP registry for MCP servers."
+authors = [
+  { name = "Yuri Golikov", email = "iurii.golikov@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "mcp",
+  "mcp[cli]"
+]
+
+[project.urls]
+Homepage = "https://github.com/meetmatt/glama-mcp-registry-mcp-server"
+
+[project.scripts]
+mcp-glama-registry = "mcp_glama_registry:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"] 
