@@ -13,16 +13,17 @@ uv sync
 
 ## Usage
 
-You can run the server with:
-
-```sh
-python -m mcp_glama_registry
-```
-
-Or directly with uvx:
-
-```sh
-uvx -y --package=@mcp-glama-registry mcp-glama-registry
+```json
+{
+  "mcpServers": {
+    "glama-registry": {
+      "command": "uvx",
+      "args": [
+        "mcp-glama-registry"
+      ]
+    }
+  }
+}
 ```
 
 ## API
