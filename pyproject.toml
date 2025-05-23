@@ -1,6 +1,6 @@
 [project]
 name = "mcp-glama-registry"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP Registry Server for Glama MCP. Exposes a tool to search the Glama MCP registry for MCP servers."
 authors = [
   { name = "Yuri Golikov", email = "iurii.golikov@gmail.com" }
